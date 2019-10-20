@@ -3,9 +3,12 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+with open("VERSION", "r") as fh:
+    version = fh.read()
+
 setuptools.setup(
     name="pw-generator",
-    version="0.0.1",
+    version=version,
     author="Petr Antonov",
     author_email="petr@antonov.space",
     description="Simple password generator",
