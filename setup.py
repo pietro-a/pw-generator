@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pwgen-pietro",
+    name="pw-generator",
     version="0.0.1",
     author="Petr Antonov",
     author_email="petr@antonov.space",
