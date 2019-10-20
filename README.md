@@ -24,7 +24,8 @@ password = passphrase_gen(2)
 ## License
 
 This project is licensed under the MIT License - see the
-[LICENSE](LICENSE) file for details.
+[LICENSE](https://github.com/pietro-a/pw-generator/blob/master/LICENSE)
+file for details.
 
 ## Acknowledgments
 
