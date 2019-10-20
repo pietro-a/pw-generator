@@ -3,8 +3,23 @@ Generate relatively secure passwords within python scripts.
 
 The idea of the password generator, that produses relatively secure 
 passwords, consisting from some english words and delimiters, and 
-the wordlist itself were taken from passwdqc library written by
-Solar Designer (solar (at) openwall.com). 
+the wordlist itself were taken from passwdqc library.
+
+## Code example
+
+```
+from pwgen import passphrase_gen, password_gen
+from pwgen.exception import WeakPasswordException
+
+password = passphrase_gen(5)
+print(password)
+
+password = password_gen(10)
+print(password)
+
+password = passphrase_gen(2)
+""" Should get a WeakPasswordException """
+```
 
 ## License
 
